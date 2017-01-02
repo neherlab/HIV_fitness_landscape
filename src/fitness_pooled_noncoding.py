@@ -486,7 +486,7 @@ if __name__=="__main__":
     #subset_of_positions = np.ones_like(synnonsyn_unconstrained['genomewide'], dtype=bool)
     shape_vs_fitness(data, minor_af, -reference.entropy, subset_of_positions, ws=ws,
                      fname=None, new_fig=True,
-                     label=("group M" if args.subtype=='any' else 'subtype B')+ "diversity")
+                     label=("group M" if args.subtype=='any' else 'subtype B')+ " diversity (negative)")
 
 #    shape_vs_fitness(data, minor_af, -reference.shape_values, subset_of_positions, ws=ws,
 #                     fname=None, new_fig=False, label="SHAPE")
